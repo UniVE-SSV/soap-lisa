@@ -1,0 +1,13 @@
+class soap {
+
+	f(b) {
+		def a = 1;
+		def x = a + b;
+		def y = a * b;
+		while (y > a) {
+			a = a + 1;
+			x = a + b;
+		}
+		return x;
+	 }
+}
